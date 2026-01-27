@@ -43,3 +43,17 @@ Internet connectivity is now working properly.
 3. Understanding NetworkManager and VMware NAT behavior is crucial for troubleshooting lab networks.  
 4. Troubleshooting real network issues teaches far more than just reading theory.
 
+## Day 2 – Basic Router Connectivity Lab
+
+Today I connected a PC to a router in Cisco Packet Tracer and tested connectivity.
+
+At first, the link light was green, but the PC could not ping the router.  
+After checking the router status, I noticed the interface had no IP address assigned.
+
+I configured an IP address on the router interface and enabled it.  
+After this, the PC was able to successfully ping the router.
+
+### What I learned
+- A green link does not always mean the network is working
+- Router interfaces need an IP address to communicate
+- Step-by-step troubleshooting is more important than memorizing commands
