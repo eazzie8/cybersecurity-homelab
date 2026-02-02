@@ -1,3 +1,7 @@
+
+
+
+
 # Week 1 – Day 1: Networking Lab
 
 ## Problem
@@ -57,3 +61,20 @@ After this, the PC was able to successfully ping the router.
 - A green link does not always mean the network is working
 - Router interfaces need an IP address to communicate
 - Step-by-step troubleshooting is more important than memorizing commands
+## Setup Phase – Packet Visibility
+day 3-4
+Initial days were spent setting up Wireshark and understanding how system activity translates into observable network traffic.
+## Day 5 – DNS Traffic Analysis (Wireshark)
+
+Today I focused only on DNS traffic using Wireshark.
+
+I generated normal DNS queries (google.com, github.com) and observed:
+- Short, readable domain names
+- Successful A record responses
+- Low query volume
+
+Then I generated repeated failed DNS queries with random subdomains.
+This made it clear how abnormal DNS patterns stand out.
+
+Key takeaway:
+DNS is not just name resolution — it is a major visibility and detection point in security operations.
