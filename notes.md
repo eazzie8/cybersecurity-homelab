@@ -80,6 +80,39 @@ Key takeaway:
 DNS is not just name resolution — it is a major visibility and detection point in security operations.
 
 
+
+## Day 3 – Packet Flow Observation (Packet Tracer)
+
+- Observed packet movement between devices in a simple network.
+- Verified link lights (red → green) and what they indicate.
+- Used Packet Tracer simulation mode to follow packet paths.
+- Focus was on understanding flow, not configuration.
+
+Note:
+This day was observation-based, so no configurations or files were created.
+
+
+
+## Day 4 – DNS Basics and Resolution Flow
+
+- Reviewed how DNS queries are generated and resolved.
+- Observed DNS requests and responses in the network.
+- Identified the role of DNS in normal web traffic.
+
+Note:
+This day focused on conceptual understanding through live observation.
+
+
+
+## Day 5 – DNS Traffic Analysis
+
+- Captured and observed DNS traffic.
+- Identified DNS query and response packets.
+- Understood how DNS appears at the packet level.
+- Prepared groundwork for deeper packet analysis with Wireshark.
+
+
+
 ## Day 6 – Network Traffic Analysis (Normal Traffic)
 
 - Captured live network traffic using Wireshark
