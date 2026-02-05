@@ -78,3 +78,11 @@ This made it clear how abnormal DNS patterns stand out.
 
 Key takeaway:
 DNS is not just name resolution — it is a major visibility and detection point in security operations.
+
+
+## Day 6 – Network Traffic Analysis (Normal Traffic)
+
+- Captured live network traffic using Wireshark
+- Observed DNS resolution and ICMP packets
+- Identified source and destination IP addresses
+- Learned how normal user-generated traffic appears on the network
