@@ -1,11 +1,4 @@
 
-
-
-
-# Week 1 – Day 1: Networking Lab
-
-## Problem
-When trying to access the internet from Kali Linux, `ping google.com` failed with:
 # Week 1 – Day 1: Networking Lab
 
 ## Problem
@@ -107,3 +100,28 @@ This day focused on conceptual understanding through live observation.
 - Identified source and destination IP addresses
 - Learned how normal user-generated traffic appears on the network
 
+
+
+## Day 7 – Basic Attack Simulation (TCP Reconnaissance)
+
+### Objective
+Simulate suspicious network activity and observe how it appears at the packet level using Wireshark.
+
+### What I Did
+- Used `nmap -sT` to perform a TCP connect scan.
+- Targeted a controlled test host (`scanme.nmap.org`) to generate TCP traffic.
+- Ran the scan from Kali Linux while capturing traffic in Wireshark.
+- Applied protocol and TCP filters to isolate scan-related packets.
+
+### What I Observed
+- Multiple TCP connection attempts to different destination ports.
+- Short bursts of traffic within a small time window.
+- Clear TCP behavior consistent with reconnaissance activity.
+
+### Key Takeaway
+Even simple scans leave clear fingerprints on the network. While port scanning may look quiet in the terminal, it becomes very visible when analyzed at the packet level.
+
+### Tools Used
+- Kali Linux
+- Nmap
+- Wireshark
