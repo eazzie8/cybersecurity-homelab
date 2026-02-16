@@ -18,3 +18,20 @@
 - Repeated ICMP or port scanning patterns would likely trigger alerts
 - IDS focuses on behavior patterns, not single packets
 - Baseline traffic understanding is required before detection
+
+
+## Day 9 – Log Analysis & SIEM Mindset
+
+### Logs Explored
+- /var/log/auth.log
+- /var/log/syslog
+
+### Observations
+- Identified authentication and sudo activity
+- Observed system and process-level events
+- Noted timestamps and event structure
+
+### SIEM Perspective
+- Logs provide context that packet captures cannot
+- Events are correlated by time, user, and action
+- SIEM tools automate aggregation and alerting
