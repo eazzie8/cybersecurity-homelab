@@ -34,4 +34,16 @@
 ### SIEM Perspective
 - Logs provide context that packet captures cannot
 - Events are correlated by time, user, and action
-- SIEM tools automate aggregation and alerting
+- SIEM tools automate aggregation and alert
+
+
+## Day 10 – Linux Host Investigation
+
+- Verified user identity and group membership
+- Reviewed system directory permissions
+- Practiced file permission management (chmod 600)
+- Investigated running processes and identified ssh-agent vs ssh service
+- Reviewed active services using systemctl
+- Checked listening ports using ss
+- Accessed system logs using journalctl
+- Confirmed no exposed services on host
