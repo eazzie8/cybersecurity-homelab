@@ -35,3 +35,59 @@ Notes and lab work for this week are stored in the `week-1-networking` directory
 This week emphasizes understanding how security controls behave underneath and how SOC analysts reason about alerts, baselines, and anomalies.
 
 Work and notes are stored alongside the existing lab structure and will be expanded as the week progresses.
+
+
+---
+
+
+# OverTheWire Bandit: Levels 1–33
+
+This repository chronicles my journey through **OverTheWire Bandit**, levels 1–33—a hands-on wargame designed to teach Linux command-line mastery, system navigation, and foundational cybersecurity skills.
+
+---
+
+## Journey Overview
+
+I began Bandit with only basic Linux knowledge. Over 33 levels, I progressed from simple navigation to **advanced challenges involving restricted shells, SSH keys, and multi-step file decoding**.  
+
+Key learning areas:
+- File system navigation and hidden file discovery
+- Compression, encoding, and multi-layered decoding
+- Restricted shell handling and SSH troubleshooting
+- Combining commands to analyze program behavior
+
+---
+
+## Challenges Overcome
+
+- Escaping **restricted shells and pagers**
+- Multi-step decoding of files
+- Handling **SSH and localhost restrictions** requiring meticulous attention
+
+---
+
+## Skills Gained
+
+- Analytical thinking and problem-solving in constrained environments
+- Confidence in Linux environments, command-line operations, and SSH workflows
+- Cybersecurity mindset: observe, analyze, act deliberately
+- Creative command-line problem solving
+
+---
+
+## Level-by-Level Highlights
+
+| Levels | Focus / Skills | Key Takeaways |
+|--------|----------------|---------------|
+| 1–10   | Basic navigation, file reading, permissions | Foundation in Linux commands |
+| 11–20  | Compression, encoding, hidden files | Handling complex files and pipelines |
+| 21–30  | SSH keys, restricted shells, multi-step decoding | Problem-solving, logical analysis |
+| 31–33  | Advanced restricted shells, environment limits | Creativity, patience, advanced troubleshooting |
+
+
+---
+
+## Next Steps
+
+- Apply these skills in **Linux administration and penetration testing labs**
+- Maintain this repository as a **learning resource and reference**
